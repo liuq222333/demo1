@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.vite/
+
+# local tooling and IDE files
+.playwright-mcp/
+.idea/
+.vscode/
+
+# logs and local caches
+*.log
+*.tsbuildinfo
+*.tmp
+*.temp
+
+# local environment files
+.env
+.env.*
+!.env.example
